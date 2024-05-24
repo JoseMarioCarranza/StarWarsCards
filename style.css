@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    background-image: url("https://lumiere-a.akamaihd.net/v1/images/star-wars-backgrounds-14_856985d9.jpeg");
+    width: 100vw;
+    height: 100vh;
+}
+
+#seccion_logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+#seccion_logo img {
+    height: 7.5vh;
+}
+
+#fotos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+#carouselExample {
+    width: 75%;
+}
+
+#Busqueda {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+#Busqueda h2 {
+    color: aliceblue;
+}
+
+#Busqueda * {
+    margin-right: 1vh;
+}
+
+#card_personaje {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#cards_personajes {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.card img {
+    height: 30vh;
+}
+
+.card-body {
+    background-image: url("https://t3.ftcdn.net/jpg/03/06/74/08/360_F_306740852_i6tI64yGPZRWCWrTxTyoJTaifZMXZJc7.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.card-title {
+    color: aliceblue !important;
+}
+
+.card-text {
+    color: aliceblue;
+}
+
+footer {
+    width: 100%;
+    height: 3vh;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
